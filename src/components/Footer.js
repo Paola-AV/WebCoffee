@@ -19,7 +19,7 @@ export function Footer() {
                             <p class="ml-1">6140-2482</p>
                         </div>
 
-                        <div  class="flex flex-row items-center">
+                        <div class="flex flex-row items-center">
                             <FaRegEnvelope></FaRegEnvelope>
                             <p class="ml-1">xmichx53@gmail.com</p>
                         </div>
@@ -36,8 +36,8 @@ export function Footer() {
             </div>
 
             <div class="w-full flex flex-row justify-end pr-4">
-                <a class="m-1"><FaFacebookSquare></FaFacebookSquare></a>
-                <a class="m-1"><FaInstagram></FaInstagram></a>
+                <a class="m-1" href="https://www.facebook.com/Olikeycoffeeroasters"><FaFacebookSquare></FaFacebookSquare></a>
+                <a class="m-1" href="https://www.instagram.com/olikeycoffeeroasters/"><FaInstagram></FaInstagram></a>
                 <a class="m-1"><FaWhatsapp></FaWhatsapp></a>
             </div>
 

@@ -1,6 +1,6 @@
-import {FaUser} from "react-icons/fa";
-import {FaRegEnvelope} from "react-icons/fa";
-import {BsFillTelephoneFill} from "react-icons/bs";
+import { FaUser } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 export function Contacto() {
     return (
@@ -9,7 +9,7 @@ export function Contacto() {
                 <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2">Contacto</h1>
             </div>
 
-            <div class="w-[80%] flex flex-row justify-self-center">
+            <div class="w-[85%] flex flex-row justify-self-center">
 
                 <div class="w-1/3 p-1 m-1 flex flex-col">
                     <h1 class="font-lucida text-semibold">Nombre</h1>
@@ -37,7 +37,7 @@ export function Contacto() {
 
             </div>
 
-            <div class="w-[80%] flex flex-row justify-self-center">
+            <div class="w-[85%] flex flex-row justify-self-center">
                 <div class="font-lucida text-semibold w-full p-1">
                     <h1>Mensaje</h1>
                     <textarea class="bg-[#FFFFFF] shadow-xl rounded-xl p-1 font-lucida w-full"></textarea>

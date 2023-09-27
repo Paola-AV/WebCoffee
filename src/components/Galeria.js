@@ -12,7 +12,7 @@ export function Galeria() {
       <div class="w-2/3 justify-self-center">
         <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2">Galeria</h1>
       </div>
-      <div class="w-2/3 justify-self-center">
+      <div class="w-[85%] justify-self-center">
         <Swiper
           effect={'coverflow'}
           grabCursor={true}
