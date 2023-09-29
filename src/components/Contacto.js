@@ -2,7 +2,7 @@ import { FaUser } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
-export function Contacto() {
+function Contacto() {
     return (
         <section class="w-full bg-[#FFEFCD] pb-10 grid">
             <div class="w-2/3 justify-self-center">
@@ -47,3 +47,5 @@ export function Contacto() {
         </section>
     )
 }
+
+export default Contacto;
