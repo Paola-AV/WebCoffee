@@ -4,9 +4,9 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Contacto() {
     return (
-        <section class="w-full bg-[#FFEFCD] pb-10 grid">
-            <div class="w-2/3 justify-self-center">
-                <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2">Contacto</h1>
+        <section class="w-full bg-[#FFEFCD] pb-10 grid sm:pb-20">
+            <div class="w-2/3 justify-self-center sm:w-[85%]">
+                <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2 sm:text-5xl">Contacto</h1>
             </div>
 
             <div class="w-[85%] flex flex-row justify-self-center">

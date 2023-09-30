@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import logoNav from '../images/logoNav.png';
 
 const navigation = [
 
@@ -16,14 +17,14 @@ function classNames(...classes) {
 
 export function Nav() {
     return (
-        <Disclosure as="nav" className="bg-transparent">
+        <Disclosure as="nav" className="bg-[#FFEFCD]">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                         <div className="relative flex h-16 items-center justify-between">
-                            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                            <div className="bg-transparent absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
-                                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-transparent hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="absolute -inset-0.5" />
                                     <span className="sr-only">Open main menu</span>
                                     {open ? (
@@ -36,11 +37,12 @@ export function Nav() {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
                                 
                                 <div className="hidden sm:ml-6 sm:block">
-                                    <div className="flex space-x-4">
-                                        <a>Inicio</a>
-                                        <a>Menu</a>
-                                        <a>Talleres</a>
-                                        <a>Productos</a>
+                                    <div className="flex space-x-48 sm:space-x-8">
+                                        <a class="font-lucida font-[400] text-2xl pt-10">Inicio</a>
+                                        <a class="font-lucida font-[400] text-2xl pt-10">Menu</a>
+                                        <a class="bg-[#E09132] rounded-b-full pb-20 pr-4 pl-4"><img src={logoNav} class="w-[4rem] h-auto translate-y-[4rem] pl-[0.5rem]"/></a>
+                                        <a class="font-lucida font-[400] text-2xl pt-10">Talleres</a>
+                                        <a class="font-lucida font-[400] text-2xl pt-10">Productos</a>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +57,7 @@ export function Nav() {
                                     as="a"
                                     href={item.href}
                                     className={classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                        item.current ? 'bg-transparent text-black' : 'text-black hover:bg-gray-700 hover:text-black',
                                         'block rounded-md px-3 py-2 text-base font-medium'
                                     )}
                                     aria-current={item.current ? 'page' : undefined}
