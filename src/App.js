@@ -9,6 +9,8 @@ import { Footer } from "./components/Footer";
 import { Nav } from "./components/Nav";
 import { ContactoSc } from "./components/ContactoSc";
 import Contacto from "./components/Contacto";
+import { HistoriaSc } from "./components/HistoriaSc";
+import { Productos } from "./components/Productos";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<div> <Home></Home> <Historia></Historia> <Galeria></Galeria> <Menu></Menu> <Contacto></Contacto> </div>}></Route>
         <Route path="/Contacto" element={<ContactoSc></ContactoSc>}></Route>
+        <Route path="/Nosotros" element={<HistoriaSc></HistoriaSc>}></Route>
+        <Route path="/Productos" element={<Productos></Productos>}></Route>
       </Routes>
       <Footer></Footer>
     </>
