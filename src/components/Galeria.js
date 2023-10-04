@@ -8,11 +8,11 @@ import slide_image_3 from '../images/slide3.jpg';
 
 export function Galeria() {
   return (
-    <section class="w-full bg-[#FFEFCD] pb-10 grid">
-      <div class="w-2/3 justify-self-center sm:w-[85%]">
+    <section class="w-full bg-[#FFEFCD] pb-10 grid lg:pt-[10rem]">
+      <div class="w-2/3 justify-self-center sm:w-[85%] lg:ml-[10rem]">
         <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2 sm: text-5xl">Galeria</h1>
       </div>
-      <div class="w-[85%] justify-self-center">
+      <div class="w-[85%] justify-self-center lg:ml-[10rem]">
         <Swiper
           effect={'coverflow'}
           grabCursor={true}

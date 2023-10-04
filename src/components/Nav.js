@@ -22,7 +22,7 @@ export function Nav() {
         <Disclosure as="nav" className="bg-[#FFEFCD]">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div className="mx-auto max-w-7xl px-2 sm:px-6 fixed z-[1000] lg:pl-16 pr-8">
                         <div className="relative flex h-16 items-center justify-between">
                             <div className="bg-transparent absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
@@ -38,7 +38,7 @@ export function Nav() {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
                                 
-                                <div className="hidden sm:ml-6 sm:block">
+                                <div className="hidden sm:ml-6 z-[1000] sm:block">
                                     <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-48">
                                         <a class="font-lucida font-[400] text-2xl pt-10">Inicio</a>
                                         <a class="font-lucida font-[400] text-2xl pt-10">Menu</a>
