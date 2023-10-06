@@ -19,10 +19,10 @@ function classNames(...classes) {
 export function Nav() {
     const navigate = useNavigate()
     return (
-        <Disclosure as="nav" className="bg-[#FFEFCD]">
+        <Disclosure as="nav" className="bg-[#FFEFCD] flex justify-center ">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl px-2 sm:px-6 fixed z-[1000] lg:pl-16 pr-8">
+                    <div className="mx-auto max-w-7xl px-2 sm:px-6 fixed z-[1000] lg:pl-16 pr-8 2xl:pl-0 pr-0">
                         <div className="relative flex h-16 items-center justify-between">
                             <div className="bg-transparent absolute inset-y-0 left-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
@@ -39,7 +39,7 @@ export function Nav() {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
                                 
                                 <div className="hidden sm:ml-6 z-[1000] sm:block">
-                                    <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-48">
+                                    <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-40 2xl:space-x-[15rem]">
                                         <a class="font-lucida font-[400] text-2xl pt-10">Inicio</a>
                                         <a class="font-lucida font-[400] text-2xl pt-10">Menu</a>
                                         <a class="bg-[#E09132] rounded-b-full pb-20 pr-4 pl-4"><img src={logoNav} class="w-[4rem] h-auto translate-y-[4rem] pl-[0.5rem]"/></a>
