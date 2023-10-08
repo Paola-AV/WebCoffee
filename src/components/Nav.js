@@ -38,8 +38,8 @@ export function Nav() {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
                                 
-                                <div className="hidden sm:ml-6 z-[1000] sm:block">
-                                    <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-40 2xl:space-x-[15rem]">
+                                <div className="hidden sm:ml-6 z-[1000] sm:block 2xl:ml-1">
+                                    <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-40 2xl:space-x-[13rem]">
                                         <a class="font-lucida font-[400] text-2xl pt-10">Inicio</a>
                                         <a class="font-lucida font-[400] text-2xl pt-10">Menu</a>
                                         <a class="bg-[#E09132] rounded-b-full pb-20 pr-4 pl-4"><img src={logoNav} class="w-[4rem] h-auto translate-y-[4rem] pl-[0.5rem]"/></a>
