@@ -11,6 +11,7 @@ import { ContactoSc } from "./components/ContactoSc";
 import Contacto from "./components/Contacto";
 import { HistoriaSc } from "./components/HistoriaSc";
 import { Productos } from "./components/Productos";
+import { Talleres } from "./components/Talleres";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Contacto" element={<ContactoSc></ContactoSc>}></Route>
         <Route path="/Nosotros" element={<HistoriaSc></HistoriaSc>}></Route>
         <Route path="/Productos" element={<Productos></Productos>}></Route>
+        <Route path="/Talleres" element={<Talleres></Talleres>}></Route>
       </Routes>
       <Footer></Footer>
     </>
