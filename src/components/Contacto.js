@@ -4,12 +4,12 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Contacto() {
     return (
-        <section class="w-full bg-[#FFEFCD] pb-10 grid sm:pb-20">
+        <section class="h-[100vh] w-full bg-[#EDBE86] pb-10 grid sm:pb-20">
             <div class="w-2/3 justify-self-center sm:w-[85%] xl:w-[80%] 2xl:w-[70%]">
-                <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2 sm:text-5xl">Contacto</h1>
+                <h1 class="text-6xl text-[#424530] font-lucida font-bold pb-2 sm:text-5xl">Contacto</h1>
             </div>
 
-            <div class="w-[85%] flex flex-row justify-self-center xl:w-[80%] 2xl:w-[70%]">
+            <div class="w-[85%] h-[50%] flex flex-row justify-self-center xl:w-[80%] 2xl:w-[70%]">
 
                 <div class="w-1/3 p-1 m-1 flex flex-col">
                     <h1 class="font-lucida text-semibold">Nombre</h1>
@@ -19,7 +19,7 @@ function Contacto() {
                     </div>
                 </div>
 
-                <div class="w-1/3 p-1 m-1 flex flex-col">
+                <div class="w-1/3 p-1 m-1 flex flex-col" >
                     <h1 class="font-lucida text-semibold">Correo</h1>
                     <div class="bg-[#FFFFFF] shadow-xl rounded-xl p-1 font-lucida flex flex-row items-center lg:p-3">
                         <FaRegEnvelope class="ml-[0.2rem]"></FaRegEnvelope>
@@ -27,7 +27,7 @@ function Contacto() {
                     </div>
                 </div>
 
-                <div class="w-1/3 p-1 m-1 flex flex-col">
+                <div class="w-1/3 p-1 m-1 flex flex-col ">
                     <h1 class="font-lucida text-semibold">Telefono</h1>
                     <div class="bg-[#FFFFFF] shadow-xl rounded-xl p-1 font-lucida flex flex-row items-center lg:p-3">
                         <BsFillTelephoneFill class="ml-[0.2rem]"></BsFillTelephoneFill>

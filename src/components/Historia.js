@@ -3,13 +3,13 @@ import blockDecor from '../images/blockDecor.png';
 
 export function Historia() {
     return (
-        <section class="w-full bg-[#FFEFCD] pb-10 sm:pb-20 lg:pt-[13rem]">
+        <section class="w-full h-[100vh] bg-[#EDBE86] pb-10 sm:pb-20 lg:pt-[13rem]">
             <div class="w-full flex flex-col items-center">
-                <div class="w-[85%] shadow-xl bg-[#FFFFFF] p-2 text-center font-lucida rounded-xl lg:text-start xl:w-[75%] 2xl:w-[60%]">
+                <div class="w-[85%] shadow-xl bg-[#FEEBC8] p-2 text-center font-lucida rounded-xl lg:text-start xl:w-[75%] 2xl:w-[60%]">
                     <div class="flex flex-row">
                         <h2 class="font-semibold text-[#424530] pb-1 text-2xl sm:text-3xl lg:text-4xl pt-4 lg:w-1/2">Nuestra Historia</h2>
                         <div class="hidden lg:flex flex-col w-1/2 justify-center items-end">
-                            <img class="lg:absolute translate-x-[3rem] translate-y-[1rem] w-[30%] xl:w-[26%] 2xl:translate-y-[2.5rem]" src={blockDecor}/>
+                            <img class="lg:absolute translate-x-[3rem] translate-y-[1rem] w-[30%] xl:w-[23%] 2xl:translate-y-[2.5rem]" src={blockDecor}/>
                         </div>
                     </div>
 
