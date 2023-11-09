@@ -5,7 +5,7 @@ import vasoMenu from '../images/vasoMenu.png'
 
 export function Menu() {
     return (
-        <section class="h-[100vh] w-full bg-[#EDBE86] pb-10 grid lg:pb-[10rem]">
+        <section class="h-[100vh] w-full bg-[#EDBE86] pb-[10rem] pt-[10rem] grid lg:pb-[10rem]">
             <div class="w-2/3 justify-self-center sm:w-[85%] xl:w-[75%] 2xl:w-[68%]">
                 <h1 class="text-4xl text-[#424530] font-lucida font-bold pb-2 sm:text-5xl lg:text-6xl pb-[3rem] pt-[5rem]">Menu</h1>
             </div>

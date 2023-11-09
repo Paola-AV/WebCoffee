@@ -18,7 +18,7 @@ import { Inicio } from "./components/Inicio";
 function App() {
   return (
     <>
-     <Nav></Nav>
+     
       <Routes>
         <Route path="/" element={<div><Home></Home> <Historia></Historia> <Galeria></Galeria> <Menu></Menu> <Contacto></Contacto> </div>}></Route>
         <Route path="/Contacto" element={<ContactoSc></ContactoSc>}></Route>
@@ -28,7 +28,7 @@ function App() {
         <Route path="/Talleres" element={<Talleres></Talleres>}></Route>
         <Route path="/Galeria" element={<GaleriaSc></GaleriaSc>}></Route>
       </Routes>
-      <Footer></Footer>
+      
     </>
   );
 }

@@ -39,12 +39,12 @@ export function Nav() {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
 
                                 <div className="hidden sm:ml-6 z-[1000] sm:block 2xl:ml-1">
-                                    <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-40 2xl:space-x-[13rem]">
-                                        <a class="font-lucida font-[500] text-2xl pt-10 cursor-pointer hover:text-3xl duration-700"  onClick={() => navigate('/')}>Inicio</a>
-                                        <a class="font-lucida font-[500] text-2xl pt-10 cursor-pointer hover:text-3xl duration-700" href='#Menu'>Menu</a>
-                                        <a class="bg-[#E09132] rounded-b-full pb-20 pr-4 pl-4 "><img src={logoNav} class="w-[4rem] h-auto translate-y-[4rem] pl-[0.5rem] hover:w-[5rem] duration-700" /></a>
-                                        <a class="font-lucida font-[500] text-2xl pt-10 cursor-pointer hover:text-3xl duration-700"  onClick={() => navigate('/Talleres')}>Talleres</a>
-                                        <a class="font-lucida font-[500] text-2xl pt-10 cursor-pointer hover:text-3xl duration-700"  onClick={() => navigate('/Productos')}>Productos</a>
+                                    <div className="flex space-x-48 sm:space-x-8 md:space-x-14 lg:space-x-[6.5rem] xl:space-x-40 2xl:space-x-[12rem]">
+                                        <a class="font-lucida font-[500] text-2xl pt-[4rem] cursor-pointer hover:text-3xl duration-700"  onClick={() => navigate('/Inicio')}>Inicio</a>
+                                        <a class="font-lucida font-[500] text-2xl pt-[4rem] cursor-pointer hover:text-3xl duration-700" onClick={() => navigate('/Nosotros')}>Nosotros</a>
+                                        <a class="bg-[#E09132] rounded-b-full p-4 pb-20"><img src={logoNav} class="w-[3.5rem] h-auto translate-y-[4rem] pl-[0.5rem] hover:w-[4rem] duration-700" /></a>
+                                        <a class="font-lucida font-[500] text-2xl pt-[4rem] cursor-pointer hover:text-3xl duration-700"  onClick={() => navigate('/Talleres')}>Talleres</a>
+                                        <a class="font-lucida font-[500] text-2xl pt-[4rem] cursor-pointer hover:text-3xl duration-700"  onClick={() => navigate('/Productos')}>Productos</a>
                                     </div>
                                 </div>
                             </div>

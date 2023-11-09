@@ -1,7 +1,8 @@
-import gFrente from "../images/gFrente.png";
+import gDerecha from "../images/gDerecha.png";
 import { useSpring,useScroll, animated } from '@react-spring/web'
 
-export function Granos3() {
+export function Granos6() {
+
 
     const mover = useSpring({
         from: {
@@ -10,15 +11,15 @@ export function Granos3() {
             width:'1%'
         },
         config: { tension:40, friction:8},
-        transform: 'translate3d(-380px,80px,0px)',
+        transform: 'translate3d(100px,-200px,0px)',
         opacity:1,
-        width:'5%'
+        width:'6%'
     })
     return (
         <animated.div
             style={mover}
         >
-            <img src={gFrente} class="blur-[3px]" alt="Granos de café"/>
+            <img src={gDerecha} class="blur-[3px]" alt="Granos de café"/>
         </animated.div>
     )
 }

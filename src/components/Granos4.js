@@ -10,7 +10,7 @@ export function Granos4() {
             transform: 'translate3d(0px,0px,0px)',
             width:'1%'
         },
-        config: { duration: 1000 },
+        config: { tension:40, friction:8},
         transform: 'translate3d(300px,-200px,0px)',
         opacity:1,
         width:'6%'
@@ -19,7 +19,7 @@ export function Granos4() {
         <animated.div
             style={mover}
         >
-            <img src={gDerecha} class="blur-[1px]" alt="Granos de café"/>
+            <img src={gDerecha} class="blur-[3px]" alt="Granos de café"/>
         </animated.div>
     )
 }

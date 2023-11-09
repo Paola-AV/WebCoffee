@@ -13,8 +13,8 @@ export function Home() {
                     <p class="font-[450] text-[#424530] sm:text-xl" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
                 </div>
                 <div class="w-2/3 flex flex-col items-start font-lucida mt-7 sm:w-[85%]">
-                    <button onClick={() => navigate('/Contacto')} class="shadow-lg bg-[#E09132] p-1 font-semibold rounded-xl text-[#FFEFCD] m-1 text-lg sm:text-xl">Contactanos</button>
-                    <button onClick={() => navigate('/Talleres')} class="shadow-lg bg-[#424530] p-1 pl-[1.5rem] pr-[1.5rem] font-semibold rounded-xl text-[#FFEFCD] m-1 text-lg sm:text-xl mt-2">Talleres</button>
+                    <button onClick={() => navigate('/Contacto')} class="shadow-lg bg-[#E09132] p-1 font-semibold rounded-xl text-[#FFEFCD] m-1 text-lg sm:text-xl z-[1000]">Contactanos</button>
+                    <button onClick={() => navigate('/Talleres')} class="shadow-lg bg-[#424530] p-1 pl-[1.5rem] pr-[1.5rem] font-semibold rounded-xl text-[#FFEFCD] m-1 z-[1000] text-lg sm:text-xl mt-2">Talleres</button>
                 </div>
             </div>
 

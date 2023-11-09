@@ -1,7 +1,7 @@
 import gFrente from "../images/gFrente.png";
 import { useSpring,useScroll, animated } from '@react-spring/web'
 
-export function Granos3() {
+export function Granos7() {
 
     const mover = useSpring({
         from: {
@@ -10,7 +10,7 @@ export function Granos3() {
             width:'1%'
         },
         config: { tension:40, friction:8},
-        transform: 'translate3d(-380px,80px,0px)',
+        transform: 'translate3d(-80px,80px,0px)',
         opacity:1,
         width:'5%'
     })

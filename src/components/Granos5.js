@@ -9,7 +9,7 @@ export function Granos5() {
             transform: 'translate3d(0px,0px,0px)',
             width:'1%'
         },
-        config: { duration: 1000 },
+        config: { tension:40, friction:8},
         transform: 'translate3d(-100px,-220px,0px)',
         opacity:1,
         width:'5%'
@@ -18,7 +18,7 @@ export function Granos5() {
         <animated.div
             style={mover}
         >
-            <img src={gMedio} class="blur-[1px]" alt="Granos de café"/>
+            <img src={gMedio} class="blur-[3px]" alt="Granos de café"/>
         </animated.div>
     )
 }
