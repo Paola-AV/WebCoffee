@@ -1,12 +1,14 @@
 import { FaWaze } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Contacto from "./Contacto";
+import { Nav } from "./Nav";
+import { Footer } from "./Footer";
 
 export function ContactoSc() {
     return (
-        <section class="w-full bg-[#FFEFCD] pt-[5rem] pb-10 flex flex-col items-center text-center sm:pb-[5rem] pt-[7rem] text-start">
+        <><Nav class="bg-[#EDBE86]"></Nav><section class="w-full bg-[#EDBE86] pt-[5rem] pb-10 flex flex-col items-center text-center sm:pb-[5rem] pt-[7rem] text-start">
             <Contacto></Contacto>
-            <div class="sm:w-[80%] 2xl:w-[70%]">
+            <div class="bg-[#EDBE86] sm:w-[80%] 2xl:w-[70%]">
                 <div class="font-lucida sm:text-lg 2xl:text-xl">
                     <div class="flex flex-row">
                         <p class="font-semibold text-[#636845] pr-[0.5rem]">Palmares,</p> <p class="font-semibold text-[#424530]">  Alajuela</p>
@@ -14,7 +16,7 @@ export function ContactoSc() {
                     <div class="flex flex-row">
                         <p>Detras del redondel de </p> <p class="text-[#636845] pl-[0.5rem]"> Palmares,</p>
                     </div>
-                    
+
                     <div class="text-start">
                         <p>200 metros sur.</p>
                     </div>
@@ -36,5 +38,6 @@ export function ContactoSc() {
                 </div>
             </div>
         </section>
+        <Footer></Footer></>
     )
 }
